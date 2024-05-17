@@ -1,0 +1,39 @@
+.containernav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-top: 20px;
+  }
+  
+  .left-side,
+  .right-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-side {
+    gap: 20px;
+  }
+  
+  .links-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .links {
+    color: rgb(210, 200, 215);
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .links:hover {
+    background-color: brown;
+  }
+  
+  .logo {
+    font-weight: bold;
+    color: rgb(210, 200, 215);
+    font-size: 30px;
+  }

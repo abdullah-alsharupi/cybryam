@@ -1,0 +1,18 @@
+.containershop
+{
+  display: flex;
+  gap: 100px;
+  background-color: red;
+}
+.col
+{
+  flex: 1;
+  display: flex;
+    gap: 50px;
+
+}
+.title
+{
+  font-size: 72px;
+  background: linear-gradient(to bottom,var(--Color-primary),var(--Color-seconday));
+}
